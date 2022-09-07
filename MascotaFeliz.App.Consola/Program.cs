@@ -38,9 +38,9 @@ namespace MascotaFeliz.App.Consola
             var veterinario = new Veterinario
             {
                 //Cedula = "1313",
-                Nombres = "Pedro",
-                Apellidos = "Navaja",
-                Direccion = "El Bronx",
+                Nombres = "Lola",
+                Apellidos = "Mento",
+                Direccion = "Cali",
                 Telefono = "3367893045",
                 TarjetaProfesional = "1234567890"
             };
