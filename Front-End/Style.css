@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+    .imagenMascota {
+        background-image: url('./Imagenes/fondo.jpg'); 
+        background-size: cover;
+        height: 700px;
+        position: relative;
+      }
+
+      .imagenDueno {
+        background: url('./Imagenes/fondo_dueño.jpg'); 
+        background-size: cover;
+        height: 700px;
+        position: relative;
+      }
+      .imagenVeterinario {
+        background: url('./Imagenes/fondo_veterinario.jpg'); 
+        background-size: cover;
+        height: 700px;
+        position: relative;
+      }
+
+      .form-registerM {
+        width: 400px;
+        height: 500px;
+        background: rgb(243, 241, 241);
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: black;
+        box-shadow: 7px 13px 37px white;
+        left: -500px;
+        position: relative;
+      }
+  
+  .form-registerD {
+    width: 400px;
+    height: 500px;
+    background: rgb(243, 241, 241);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px white solid;
+    left: -500px;
+    position: relative;
+  }
+
+  .form-registerV {
+    width: 400px;
+    height: 500px;
+    background: rgb(243, 241, 241);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px white solid;
+    right: -450px;
+    position: relative;
+  }
+  
+    h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'calibri';
+    font-size: 18px;
+    color:black;
+  }
+  
+  .form-register p {
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-registerM .botons {
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  .form-registerD .botons {
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  .form-registerV .botons {
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
