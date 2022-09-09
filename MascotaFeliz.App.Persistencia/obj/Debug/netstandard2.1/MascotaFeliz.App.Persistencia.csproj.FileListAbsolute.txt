@@ -10,3 +10,15 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\bin\Debug\netstandard
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.deps.json
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfo.cs
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb

@@ -21,9 +21,11 @@ namespace MascotaFeliz.App.Consola
         {
             Console.WriteLine("Hello World!");
 
-            AddDueno();
-            AddVeterinario();
-            AddMascota();
+            //AddDueno();
+            //AddVeterinario();
+            //AddMascota();
+            ListarMascotas();
+            BuscarMascota(2);
         }
 
         private static void AddDueno()
@@ -59,15 +61,32 @@ namespace MascotaFeliz.App.Consola
             var mascota = new Mascota
             {
                 
-                Nombre = "Firulay",
-                Color = "Negro",
-                Especie = "Canino",
-                Raza = "Cacri",
+                Nombre = "Sasha",
+                Color = "Blaco",
+                Especie = "Gato",
+                Raza = "Angora",
                 //DuenoId = "1",
                 //VeterinarioId = "1",
                 //HistoriaId = "1"
             };
             _repoMascota.AddMascota(mascota);
         }
+
+        private static void ListarMascotas()
+        {
+            var mascotas = _repoMascota.GetAllMascotas();
+            foreach (Mascota m in mascotas)
+            {
+                Console.WriteLine(m.Nombre + " " + m.Color + " " + m.Especie + " " + m.Raza);
+            }
+          
+        }
+        private static void BuscarMascota(int idMascota)
+        {
+            var mascota = _repoMascota.GetMascota(idMascota);
+            Console.WriteLine(mascota.Nombre + " " + mascota.Color + " " + mascota.Especie + " " + mascota.Raza);
+        }
+
+
     }
 }
