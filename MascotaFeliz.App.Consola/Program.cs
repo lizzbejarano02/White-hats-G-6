@@ -31,6 +31,9 @@ namespace MascotaFeliz.App.Consola
             //BorrarMascota(4);
             //ListarMascotas();
             //BuscarMascota(2);
+            //AddHistoria();
+            //BorrarHistoria(2);
+            //ListarHistorias();
         }
 
         private static void AddDueno()
@@ -119,5 +122,34 @@ namespace MascotaFeliz.App.Consola
             var mascota = _repoMascota.GetMascota(idMascota);
             Console.WriteLine(mascota.Nombre + " " + mascota.Color + " " + mascota.Especie + " " + mascota.Raza);
         }
+
+        private static void AddHistoria()
+        {
+
+            var historia = new Historia
+            {
+                
+                FechaInicial = new DateTime(2022,09,12)
+            };
+            _repoHistoria.AddHistoria(historia);
+            
+        }
+
+        private static void BorrarHistoria(int idHistoria)
+        {
+            _repoHistoria.DeleteHistoria(idHistoria);             
+        }
+
+        private static void ListarHistorias()
+        {
+            var historias = _repoHistoria.GetAllHistorias();
+            foreach (Historia h in historias)
+            {
+                Console.WriteLine(h.FechaInicial);
+            }
+          
+        }
+
+
     }
 }
