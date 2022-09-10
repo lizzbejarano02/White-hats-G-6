@@ -31,6 +31,7 @@ namespace MascotaFeliz.App.Consola
             //BorrarMascota(4);
             //ListarMascotas();
             //BuscarMascota(2);
+            //BuscarMascotaPorFiltro("Firulay");
             //AddHistoria();
             //BorrarHistoria(2);
             //ListarHistorias();
@@ -121,6 +122,15 @@ namespace MascotaFeliz.App.Consola
         {
             var mascota = _repoMascota.GetMascota(idMascota);
             Console.WriteLine(mascota.Nombre + " " + mascota.Color + " " + mascota.Especie + " " + mascota.Raza);
+        }
+
+        private static void BuscarMascotaPorFiltro(string filtro)
+        {
+            var mascota = _repoMascota.GetMascotasPorFiltro(filtro);
+            foreach (Mascota m in mascota)
+            {
+                Console.WriteLine(m.Nombre + " " + m.Color + " " + m.Especie + " " + m.Raza);
+            }
         }
 
         private static void AddHistoria()
