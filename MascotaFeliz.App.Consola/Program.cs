@@ -22,10 +22,15 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hello World!");
 
             //AddDueno();
+            //BuscarDueno(4);
+            //BorrarDueno(11);
             //AddVeterinario();
+            //BuscarVeterinario(6);
+            //BorrarVeterinario(12);
             //AddMascota();
-            ListarMascotas();
-            BuscarMascota(2);
+            //BorrarMascota(4);
+            //ListarMascotas();
+            //BuscarMascota(2);
         }
 
         private static void AddDueno()
@@ -42,6 +47,17 @@ namespace MascotaFeliz.App.Consola
             _repoDueno.AddDueno(dueno);
         }
 
+        private static void BuscarDueno(int idDueno)
+        {
+            var dueno = _repoDueno.GetDueno(idDueno);
+            Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos + " " + dueno.Direccion + " " + dueno.Correo);
+        }
+
+        private static void BorrarDueno(int idDueno)
+        {
+            _repoDueno.DeleteDueno(idDueno);             
+        }
+
         private static void AddVeterinario()
         {
             var veterinario = new Veterinario
@@ -55,6 +71,18 @@ namespace MascotaFeliz.App.Consola
             };
             _repoVeterinario.AddVeterinario(veterinario);
         }
+
+        private static void BuscarVeterinario(int idVeterinario)
+        {
+            var veterinario = _repoVeterinario.GetVeterinario(idVeterinario);
+            Console.WriteLine(veterinario.Nombres + " " + veterinario.Apellidos + " " + veterinario.Direccion + " "+ veterinario.Telefono + " " + veterinario.TarjetaProfesional);
+        }
+
+        private static void BorrarVeterinario(int idVeterinario)
+        {
+            _repoVeterinario.DeleteVeterinario(idVeterinario);             
+        }
+
 
         private static void AddMascota()
         {
@@ -72,6 +100,11 @@ namespace MascotaFeliz.App.Consola
             _repoMascota.AddMascota(mascota);
         }
 
+        private static void BorrarMascota(int idMascota)
+        {
+            _repoMascota.DeleteMascota(idMascota);             
+        }
+
         private static void ListarMascotas()
         {
             var mascotas = _repoMascota.GetAllMascotas();
@@ -86,7 +119,5 @@ namespace MascotaFeliz.App.Consola
             var mascota = _repoMascota.GetMascota(idMascota);
             Console.WriteLine(mascota.Nombre + " " + mascota.Color + " " + mascota.Especie + " " + mascota.Raza);
         }
-
-
     }
 }
