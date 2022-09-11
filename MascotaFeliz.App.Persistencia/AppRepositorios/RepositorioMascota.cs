@@ -76,13 +76,57 @@ namespace MascotaFeliz.App.Persistencia
                 mascotaEncontrado.Color = mascota.Color;
                 mascotaEncontrado.Especie = mascota.Especie;
                 mascotaEncontrado.Raza = mascota.Raza;
-                //mascotaEncontrado.DuenoId = mascota.DuenoId;
-                //mascotaEncontrado.VeterinarioId = mascota.VeterinarioId;
-                //mascotaEncontrado.HistoriaId = mascota.HistoriaId;
-                
                 _appContext.SaveChanges();
             }
             return mascotaEncontrado;
         }     
+
+        public Dueno AsignarDueno(int idMascota, int idDueno)
+        {
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+                if(mascotaEncontrado != null)
+                {
+                    var duenoEncontrado = _appContext.Duenos.FirstOrDefault(d => d.Id == idDueno);
+                    if(duenoEncontrado != null)
+                    {
+                    mascotaEncontrado.Dueno = duenoEncontrado;
+                    _appContext.SaveChanges();
+                    }
+                return duenoEncontrado;
+                }
+            return null;
+        }
+
+        public Veterinario AsignarVeterinario(int idMascota, int idVeterinario)
+        {
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+                if(mascotaEncontrado != null)
+                    {
+                    var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+                        if(veterinarioEncontrado != null)
+                        {
+                        mascotaEncontrado.Veterinario = veterinarioEncontrado;
+                        _appContext.SaveChanges();
+                        }
+                    return veterinarioEncontrado;
+                    }
+            return null;
+        }
+
+        public Historia AsignarHistoria(int idMascota, int idHistoria)
+        {
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+                if(mascotaEncontrado != null)
+                    {
+                    var historiaEncontrado = _appContext.Historias.FirstOrDefault(h => h.Id == idHistoria);
+                        if(historiaEncontrado != null)
+                        {
+                        mascotaEncontrado.Historia = historiaEncontrado;
+                        _appContext.SaveChanges();
+                        }
+                        return historiaEncontrado;
+                    }
+            return null;
+        }                  
     }
 }

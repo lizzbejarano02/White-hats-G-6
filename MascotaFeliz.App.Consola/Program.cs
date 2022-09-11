@@ -13,7 +13,7 @@ namespace MascotaFeliz.App.Consola
 
         private static IRepositorioMascota _repoMascota = new RepositorioMascota(new Persistencia.AppContext());
 
-        //private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
+        private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
 
         //private static IRepositorioVisitasPyP _repoVisitasPyP = new RepositorioVisitasPyP(new Persistencia.AppContext());
 
@@ -32,6 +32,9 @@ namespace MascotaFeliz.App.Consola
             //ListarMascotas();
             //BuscarMascota(2);
             //BuscarMascotaPorFiltro("Firulay");
+            //AsignarDueno();
+            //AsignarVeterinario();
+            //AsignarHistoria();
             //AddHistoria();
             //BorrarHistoria(2);
             //ListarHistorias();
@@ -131,6 +134,24 @@ namespace MascotaFeliz.App.Consola
             {
                 Console.WriteLine(m.Nombre + " " + m.Color + " " + m.Especie + " " + m.Raza);
             }
+        }
+
+        private static void AsignarDueno()
+        {
+            var dueno = _repoMascota.AsignarDueno(1,2);
+            Console.WriteLine(dueno.Nombres+""+dueno.Apellidos);
+        }
+
+        private static void AsignarVeterinario()
+        {
+            var veterinario = _repoMascota.AsignarVeterinario(1,6);
+            Console.WriteLine(veterinario.Nombres+""+veterinario.Apellidos);
+        }
+
+        private static void AsignarHistoria()
+        {
+            var historia = _repoMascota.AsignarHistoria(1,1);
+            Console.WriteLine(historia.FechaInicial);
         }
 
         private static void AddHistoria()

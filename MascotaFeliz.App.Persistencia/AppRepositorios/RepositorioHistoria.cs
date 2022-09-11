@@ -44,19 +44,6 @@ namespace MascotaFeliz.App.Persistencia
             return GetAllHistorias_();
         }
 
-        //public IEnumerable<Historia> GetHistoriasPorFiltro(DateTime FechaInicial filtro)
-        //{
-        //    var historias = GetAllHistorias(); // Obtiene todos los saludos
-        //    if (historias != null)  //Si se tienen saludos
-        //    {
-        //        if (!DateTime.MinValue(filtro)) // Si el filtro tiene algun valor
-        //        {
-        //            historias = historias.Where(s => s.FechaInicial(filtro));
-        //        }
-        //    }
-        //    return historias;
-        //}
-
         public IEnumerable<Historia> GetAllHistorias_()
         {
             return _appContext.Historias;
