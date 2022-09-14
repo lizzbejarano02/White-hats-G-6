@@ -15,7 +15,7 @@ namespace MascotaFeliz.App.Consola
 
         private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
 
-        //private static IRepositorioVisitasPyP _repoVisitasPyP = new RepositorioVisitasPyP(new Persistencia.AppContext());
+        private static IRepositorioVisitaPyP _repoVisitaPyP = new RepositorioVisitaPyP(new Persistencia.AppContext());
 
         static void Main(string[] args)
         {
@@ -41,6 +41,7 @@ namespace MascotaFeliz.App.Consola
             //ActualizarMascota(3);
             //ActualizarVeterinario(8);
             //ActualizarDueno(3);
+            //AddVisitaPyP();
         }
 
         private static void AddDueno()
@@ -137,9 +138,7 @@ namespace MascotaFeliz.App.Consola
                 Color = "Blaco",
                 Especie = "Gato",
                 Raza = "Angora",
-                //DuenoId = "1",
-                //VeterinarioId = "1",
-                //HistoriaId = "1"
+                
             };
             _repoMascota.AddMascota(mascota);
         }
@@ -231,6 +230,22 @@ namespace MascotaFeliz.App.Consola
                 Console.WriteLine(h.FechaInicial);
             }
           
+        }
+
+        private static void AddVisitaPyP()
+        {
+            var visitaPyP = new VisitaPyP
+            {
+                FechaVisita = new DateTime(2022,09,13),
+                Temperatura = 37.2F,
+                Peso = 65.3F,
+                FrecuenciaRespiratoria = 43.2F,
+                FrecuenciaCardiaca = 10.5F,
+                EstadoAnimo = "Alegre",
+                Recomendaciones = "Reposo",
+
+            };
+            _repoVisitaPyP.AddVisitaPyP(visitaPyP);
         }
 
 
