@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "trpI5NOtI2w07XfLjsRm3EomZekr7c/NHi6CCmt2KwSzzNDTa+sD2h0Jt/dcLPZZKBrDcAGcTmRGGhTQAyU9uA==",
+  "dgSpecHash": "3owyMMM7T4fOH9cHANKjFd8o7mG5tLCPVvab2IxEKuxbLAAjgNrIBUZtqW5JGJakY9icTHq7fdwPi0c2+sMNJA==",
   "success": true,
-  "projectFilePath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Larry\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Larry\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\LVU8DK661\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\LVU8DK661\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
