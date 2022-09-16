@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "fee4497407d28e229fdf67d8783be810205d944a"
+=======
+#pragma checksum "C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9dcaf6c705d7d8c5146bece2f13d74b036eec845"
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
 #pragma checksum "C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9dcaf6c705d7d8c5146bece2f13d74b036eec845"
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -75,7 +79,11 @@ using MascotaFeliz.App.Frontend;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee4497407d28e229fdf67d8783be810205d944a8039", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec8457624", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec8457624", async() => {
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -93,7 +101,11 @@ using MascotaFeliz.App.Frontend;
                 WriteLiteral(" - MascotaFeliz.App.Frontend</title>\r\n    ");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fee4497407d28e229fdf67d8783be810205d944a8748", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9dcaf6c705d7d8c5146bece2f13d74b036eec8458284", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9dcaf6c705d7d8c5146bece2f13d74b036eec8458284", async() => {
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -116,7 +128,11 @@ using MascotaFeliz.App.Frontend;
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fee4497407d28e229fdf67d8783be810205d944a9926", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9dcaf6c705d7d8c5146bece2f13d74b036eec8459462", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9dcaf6c705d7d8c5146bece2f13d74b036eec8459462", async() => {
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -151,9 +167,15 @@ using MascotaFeliz.App.Frontend;
             WriteLiteral("\r\n");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee4497407d28e229fdf67d8783be810205d944a11808", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee4497407d28e229fdf67d8783be810205d944a12264", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84511344", async() => {
+                WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84511800", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84511344", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
@@ -192,7 +214,11 @@ using MascotaFeliz.App.Frontend;
                             ");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee4497407d28e229fdf67d8783be810205d944a14366", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84513902", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84513902", async() => {
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -219,7 +245,11 @@ using MascotaFeliz.App.Frontend;
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\">\r\n                            ");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee4497407d28e229fdf67d8783be810205d944a15989", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84515525", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84515525", async() => {
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -292,6 +322,9 @@ using MascotaFeliz.App.Frontend;
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n\r\n    ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84519164", async() => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
+=======
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -317,6 +350,9 @@ using MascotaFeliz.App.Frontend;
                 WriteLiteral("\r\n    ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84520264", async() => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
+=======
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -333,6 +369,7 @@ using MascotaFeliz.App.Frontend;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee4497407d28e229fdf67d8783be810205d944a22411", async() => {
@@ -356,6 +393,9 @@ using MascotaFeliz.App.Frontend;
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84521365", async() => {
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dcaf6c705d7d8c5146bece2f13d74b036eec84521365", async() => {
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -367,7 +407,11 @@ using MascotaFeliz.App.Frontend;
 #nullable restore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 49 "C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml"
+=======
+#line 46 "C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml"
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
 #line 46 "C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml"
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
@@ -391,7 +435,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
 #nullable restore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 51 "C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml"
+=======
+#line 48 "C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml"
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 =======
 #line 48 "C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\Pages\Shared\_Layout.cshtml"
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
