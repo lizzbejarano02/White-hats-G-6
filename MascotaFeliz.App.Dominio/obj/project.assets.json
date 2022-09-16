@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LVU8DK661\\.nuget\\packages\\": {}
+    "C:\\Users\\Lizzeth Bejarano\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+      "projectUniqueName": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
       "projectName": "MascotaFeliz.App.Dominio",
-      "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\LVU8DK661\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\",
+      "projectPath": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Lizzeth Bejarano\\.nuget\\packages\\",
+      "outputPath": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LVU8DK661\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Lizzeth Bejarano\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -240,7 +240,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problema al leer el archivo de caché C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problema al leer el archivo de caché C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
     }
   ]
 }
