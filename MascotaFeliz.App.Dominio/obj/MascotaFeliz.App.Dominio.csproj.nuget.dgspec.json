@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {}
+    "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+    "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
         "projectName": "MascotaFeliz.App.Dominio",
-        "projectPath": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Lizzeth Bejarano\\.nuget\\packages\\",
-        "outputPath": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\LVU8DK661\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lizzeth Bejarano\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LVU8DK661\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

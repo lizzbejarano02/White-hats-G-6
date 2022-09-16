@@ -1,42 +1,11 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "3owyMMM7T4fOH9cHANKjFd8o7mG5tLCPVvab2IxEKuxbLAAjgNrIBUZtqW5JGJakY9icTHq7fdwPi0c2+sMNJA==",
-=======
-  "dgSpecHash": "NiEl5qXHbU/PE+lvgik/Gcbh6Cjj6W/ZmOGoEbL3hYIP4mXV5oEnN9DM2PQr3p3k21NFnfGouJsZ+A9qTG7/3g==",
->>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
-=======
-  "dgSpecHash": "NiEl5qXHbU/PE+lvgik/Gcbh6Cjj6W/ZmOGoEbL3hYIP4mXV5oEnN9DM2PQr3p3k21NFnfGouJsZ+A9qTG7/3g==",
->>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
-=======
-  "dgSpecHash": "NiEl5qXHbU/PE+lvgik/Gcbh6Cjj6W/ZmOGoEbL3hYIP4mXV5oEnN9DM2PQr3p3k21NFnfGouJsZ+A9qTG7/3g==",
->>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
+  "dgSpecHash": "C8geg1oHUMAQoec3rHUs1Anwmb2RPCSaFh/3jaU5G7RzV/nzAjAT6QHgPsIe3v4rrxqDyW1ZQzrHzWO5SE6Njg==",
   "success": true,
-  "projectFilePath": "C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lizzeth Bejarano\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Lizzeth Bejarano\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\LVU8DK661\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\LVU8DK661\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "message": "Problema al leer el archivo de caché C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problema al leer el archivo de caché C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
-=======
-      "message": "Problema al leer el archivo de caché C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
-=======
-      "message": "Problema al leer el archivo de caché C:\\ClonRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
-    }
-  ]
+  "logs": []
 }
