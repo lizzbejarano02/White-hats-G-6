@@ -81,8 +81,11 @@ C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\Masc
 C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
 C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\Listaduenos.cshtml.g.cs
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\Repo Mascota Feliz\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\ListaMascotas.cshtml.g.cs
 =======
+=======
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
 C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -165,4 +168,7 @@ C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\sta
 C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.dll
 C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.pdb
 C:\ClonRepo\White-hats-G-6\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
+<<<<<<< HEAD
+>>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
+=======
 >>>>>>> 31567cea84c6889f1effffe0a7e1710d9b9e146d
