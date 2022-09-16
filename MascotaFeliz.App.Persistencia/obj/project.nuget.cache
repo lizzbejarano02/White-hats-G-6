@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "K1btFwcD3IQ9LcYM+ESB33C4FEl0Dvr+Hh72tzf3ubUAzd0wnN2H0TYMdCXNhfTh/tLmExiVFhbT0GhfK5bcig==",
-=======
   "dgSpecHash": "+ditq6llVXbxXKwygVs4wKyf6X7OGDpgND0V/BZ6MhbSbIUESNYbNC7D4qMqoD8StjCc9ewBEb8G2kYOeWhYpQ==",
->>>>>>> 1b249a5d43de4c214ff7f7c0bdfbafa11e45c5a5
   "success": true,
   "projectFilePath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
   "expectedPackageFiles": [
@@ -136,5 +132,12 @@
     "C:\\Users\\LVU8DK661\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\LVU8DK661\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\Repo Mascota Feliz\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
