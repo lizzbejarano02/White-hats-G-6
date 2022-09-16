@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uaDxPP1NKXK9uFU5fm90EAaa5SaEaVAiV00AiJSNmoqFxTFfh2sHk+Dpoz6v3VvTxDYmfUK5SiDESG4SBlOyPg==",
+  "dgSpecHash": "ZbX+XLnBRxIJ/YPvBepNpk/+no7VhcVoONRiW7ZYS4Toui+ssvOsgoAt/e07qOTfpmaBmzXthxp54KN/z56pig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LVU8DK661\\Desktop\\White-hats-G-6-ultimo\\White-hats-G-6-ultimo\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LVU8DK661\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LVU8DK661\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
