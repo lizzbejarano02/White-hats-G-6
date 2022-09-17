@@ -196,7 +196,7 @@ namespace MascotaFeliz.App.Consola
         private static void AsignarVeterinario()
         {
             var veterinario = _repoMascota.AsignarVeterinario(1,6);
-            Console.WriteLine(veterinario.Nombres+""+veterinario.Apellidos);
+            Console.WriteLine(veterinario.Nombres+" "+veterinario.Apellidos);
         }
 
         private static void AsignarHistoria()
