@@ -4,7 +4,11 @@
 }
 
 <h1>Listado Mascotas </h1>
-<table class="tabla">
+<table class="tabla"style="padding: 2px 3px ;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 7px;">
      <tr>
             
             <th>Nombre</th>
@@ -23,7 +27,19 @@
             <td>@mascota.Especie</td>
             <td>@mascota.Raza</td>
             
+        
+          <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
+                    Detalles Mascota
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
+                    Editar Mascota
+                </a>
+            </td>
         </tr> 
-    }
-
+     }
+  
 </table>
+<a class = "btn btn-primary table-btn" asp-page="./EditarMascotas" class="btn-default">Adicionar Mascota</a>

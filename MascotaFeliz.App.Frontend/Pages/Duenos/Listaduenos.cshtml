@@ -3,8 +3,12 @@
 @{
 }
 
-<h1>Listado propietarios </h1>
-<table class="tabla">
+<h1>Listado Dueños </h1>
+<table class="tabla"style="padding: 2px 3px ;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 7px;">
      <tr>
             
             <th>Nombres</th>
@@ -14,26 +18,25 @@
     @foreach (var dueno in Model.listaDuenos)
     {
        
-        <tr>
+          <tr>
             <td>@dueno.Nombres</td>
             <td>@dueno.Apellidos</td>
             
-        </tr> 
-        <td>
-                <a class="btn btn-primary table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
-                    Detalle Dueno
+        
+      <td> <a class="btn btn-primary table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
+                    Detalle Dueño
                 </a>
-        </td>
-
-        <td>
+            </td>  
+            <td>
                 <a class="btn btn-primary table-btn" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
                     Editar Dueno
                 </a>
             </td>
-
+        </tr> 
     }
+   
 
 </table>
 <a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
 
-    
+  

@@ -1,0 +1,19 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.EditarVeterinarioModel
+@{
+    int veterinarioId = Model.veterinario.Id;
+}
+<h2>Agregar o editar Veterinario </h2>
+
+<form method="post">
+    <div class="form-group">
+        <input type="hidden" asp-for ="veterinario.Id"/>
+        <label asp-for="veterinario.Nombres"></label>
+        <input asp-for="veterinario.Nombres" class="form-control">
+        <label asp-for="veterinario.Apellidos"></label>
+        <input asp-for="veterinario.Apellidos" class="form-control">
+        
+        
+        <button type="submit" class="btn btn-primary">Grabar</button>
+    </div>
+</form>
