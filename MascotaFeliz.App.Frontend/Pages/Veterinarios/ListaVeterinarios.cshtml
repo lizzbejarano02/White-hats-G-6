@@ -12,6 +12,10 @@
             
             <th>Nombres</th>
             <th>Apellidos</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Tarjeta Profesional</th>
+
            
         </tr>
     @foreach (var veterinario in Model.listaVeterinarios)
@@ -20,6 +24,9 @@
           <tr>
             <td>@veterinario.Nombres</td>
             <td>@veterinario.Apellidos</td>
+            <td>@veterinario.Direccion</td>
+            <td>@veterinario.Telefono</td>
+            <td>@veterinario.TarjetaProfesional</td>
              <td> <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">
                     Detalle Veterinario
                 </a>
