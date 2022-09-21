@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {}
+    "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+    "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
         "projectName": "MascotaFeliz.App.Dominio",
-        "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\LVU8DK661\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\",
+        "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Larry\\.nuget\\packages\\",
+        "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LVU8DK661\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Larry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -53,21 +53,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {
+    "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
         "projectName": "MascotaFeliz.App.Frontend",
-        "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\LVU8DK661\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\obj\\",
+        "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Larry\\.nuget\\packages\\",
+        "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LVU8DK661\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Larry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -78,11 +78,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+              "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+                "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
               },
-              "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
+              "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+                "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
               }
             }
           }
@@ -113,21 +113,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+    "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
         "projectName": "MascotaFeliz.App.Persistencia",
-        "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\LVU8DK661\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Larry\\.nuget\\packages\\",
+        "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LVU8DK661\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Larry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -138,8 +138,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+              "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+                "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\ATGitHubRepo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
               }
             }
           }
@@ -189,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
         }
       }
     }
