@@ -13,16 +13,19 @@ namespace MascotaFeliz.App.Frontend.Pages
 
     {
         private readonly IRepositorioVeterinario _repoVeterinario;
+        [BindProperty(SupportsGet = true)]
 
         public IEnumerable<Veterinario> listaVeterinarios { get; set;}
+        
+        public string FiltroBusqueda {get;set;}
 
         public ListaVeterinariosModel(){
             this._repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
         }
 
-        public void OnGet()
+        public void OnGet(string FiltroBusqueda)
         {
-            listaVeterinarios = _repoVeterinario.GetAllVeterinarios();
+            listaVeterinarios = _repoVeterinario.GetVeterinariosPorFiltro(FiltroBusqueda);
         }
     }
 }

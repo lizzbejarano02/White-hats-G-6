@@ -3,6 +3,15 @@
 @{
 }
 <h1>Listado veterinarios </h1>
+
+<form method="get">
+    <div class="form-group">
+        <p>
+            Nombre: <input type="text" name="Filtrobusqueda" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+</form>
+
 <table class="tabla" style="padding: 2px 3px ;
     font-family: arial, sans-serif;
     border-collapse: collapse;
