@@ -24,10 +24,8 @@
             <th>Color</th>
             <th>Especie</th>
             <th>Raza</th>
-            
-
-            
-           
+            <th>Dueño</th>
+            <th>Veterinario</th>
         </tr>
     @foreach (var mascota in Model.listaMascotas)
     {
@@ -39,9 +37,7 @@
             <td>@mascota.Raza</td>
             
             
-            
-        
-          <td>
+        <td>
                 <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
                     Detalles Mascota
                 </a>

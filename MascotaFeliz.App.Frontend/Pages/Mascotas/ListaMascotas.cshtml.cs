@@ -12,7 +12,7 @@ namespace MascotaFeliz.App.Frontend.Pages
     public class ListaMascotasModel : PageModel
     {
         private readonly IRepositorioMascota _repoMascota;
-         [BindProperty(SupportsGet = true)]
+        [BindProperty(SupportsGet = true)]
 
         public IEnumerable<Mascota> listaMascotas {get;set;}
         
@@ -21,6 +21,7 @@ namespace MascotaFeliz.App.Frontend.Pages
         public ListaMascotasModel()
         {
             this._repoMascota = new RepositorioMascota(new Persistencia.AppContext());
+            
         }
 
         public void OnGet(string FiltroBusqueda)

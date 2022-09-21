@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using MascotaFeliz.App.Dominio;
+using MascotaFeliz.App.Persistencia;
 using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
