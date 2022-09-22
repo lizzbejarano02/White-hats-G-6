@@ -1,0 +1,39 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.AsignarModel
+@{
+    int mascotaId = Model.mascota.Id;
+}
+
+<h2>Asignación </h2>
+
+<form method="post">
+    <div class="form-group">
+        <input type="hidden" asp-for ="mascota.Id"/>
+        <input type="hidden" asp-for="mascota.Nombre" class="form-control">
+        <input  type="hidden" asp-for="mascota.Color" class="form-control">
+        <input  type="hidden" asp-for="mascota.Especie" class="form-control">
+        <input  type="hidden" asp-for="mascota.Raza" class="form-control">
+        <label for="nombre" class="form-label mb-0">Nombre</label>
+        <input type="text" class = "form-control" asp-for="mascota.Nombre" id="nombre" disabled readonly>
+        <label for = "Dueno" class = "form-label mb-0">Dueño</label>
+        <select class = "form-control" id="dueno" asp-for="mascota.Dueno.Id"
+            name="duenoId" aria-label="Default select example">
+            <option value ="0">Seleccione el Dueño</option>
+            @foreach (var dueno in Model.duenos)
+            {
+                <option value = "@dueno.Id">@dueno.Nombres @dueno.Apellidos </option>
+            }
+        </select>
+         <label for = "Veterinario" class = "form-label mb-0">Veterinario</label>
+        <select class = "form-control" id="veterinario" asp-for="mascota.Veterinario.Id"
+            name="veterinarioId" aria-label="Default select example">
+            <option value ="0">Seleccione el Veterinario</option>
+            @foreach (var veterinario in Model.veterinarios)
+            {
+                <option value = "@veterinario.Id">@veterinario.Nombres @veterinario.Apellidos </option>
+            }
+        </select>
+        
+        <button type="submit" class="btn btn-primary">Grabar</button>
+    </div>
+</form>
