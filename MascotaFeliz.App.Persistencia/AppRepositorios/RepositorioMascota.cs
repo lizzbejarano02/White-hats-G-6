@@ -55,7 +55,7 @@ namespace MascotaFeliz.App.Persistencia
                     mascotas = mascotas.Where(s => s.Nombre.Contains(filtro));
                 }
             }
-            return mascotas
+            return mascotas;
         }
 
        
