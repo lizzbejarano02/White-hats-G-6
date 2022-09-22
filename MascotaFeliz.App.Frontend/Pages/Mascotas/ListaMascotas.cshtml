@@ -35,6 +35,8 @@
             <td>@mascota.Color</td>
             <td>@mascota.Especie</td>
             <td>@mascota.Raza</td>
+            <td>@mascota.Dueno.Nombres</td>
+            <td>@mascota.Veterinario.Nombres</td>
             
             
         <td>
@@ -45,6 +47,11 @@
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
                     Editar Mascota
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Asignar" asp-route-mascotaId="@mascota.Id">
+                    Asignación 
                 </a>
             </td>
         </tr> 

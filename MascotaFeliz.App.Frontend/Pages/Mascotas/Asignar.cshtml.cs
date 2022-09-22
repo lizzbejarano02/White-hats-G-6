@@ -12,8 +12,8 @@ namespace MascotaFeliz.App.Frontend.Pages
     public class AsignarModel : PageModel
     {
         private readonly IRepositorioMascota _repoMascota;
-        private readonly IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
-        private readonly IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario (new Persistencia.AppContext());
+        private static IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
+        private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario (new Persistencia.AppContext());
         
         [BindProperty]
         public Mascota mascota {get;set;}
@@ -60,6 +60,8 @@ namespace MascotaFeliz.App.Frontend.Pages
                     mascota.Veterinario = veterinario;
                     mascota.Dueno = dueno;
                     _repoMascota.UpdateMascota(mascota);
+                    _repoMascota.AsignarDueno(mascota.Id,duenoId);
+                    _repoMascota.AsignarVeterinario(mascota.Id,veterinarioId);
                 }
 
                 
