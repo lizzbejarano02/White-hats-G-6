@@ -20,8 +20,8 @@ namespace MascotaFeliz.App.Frontend.Pages
         public Dueno dueno {get;set;}
         public Veterinario veterinario {get;set;}
 
-        public IEnumerable<Dueno> duenos{get;set;}
-        public IEnumerable<Veterinario> veterinarios{get;set;}
+        public IEnumerable<Dueno> listaDuenos{get;set;}
+        public IEnumerable<Veterinario> listaVeterinarios{get;set;}
 
         public AsignarModel()
         {
@@ -29,12 +29,17 @@ namespace MascotaFeliz.App.Frontend.Pages
         }
         public void OnGet(int ? mascotaId)
         {
-            duenos = _repoDueno.GetAllDuenos();
-            veterinarios = _repoVeterinario.GetAllVeterinarios();
+            listaDuenos = _repoDueno.GetAllDuenos();
+            listaVeterinarios = _repoVeterinario.GetAllVeterinarios();
 
             if(mascotaId.HasValue)
             {
                 mascota = _repoMascota.GetMascota(mascotaId.Value);
+
+            }
+            else
+            {
+                mascota = new Mascota();
 
             }
             if(mascota == null)
@@ -63,9 +68,16 @@ namespace MascotaFeliz.App.Frontend.Pages
                     _repoMascota.AsignarDueno(mascota.Id,duenoId);
                     _repoMascota.AsignarVeterinario(mascota.Id,veterinarioId);
                 }
+                 else
+                {
+                    mascota = _repoMascota.AddMascota(mascota);
+                    _repoMascota.AsignarDueno(mascota.Id,duenoId);
+                    _repoMascota.AsignarVeterinario(mascota.Id,veterinarioId);
+                }
 
                 
             }
+           
             return RedirectToPage("./ListaMascotas");
         }
     }
