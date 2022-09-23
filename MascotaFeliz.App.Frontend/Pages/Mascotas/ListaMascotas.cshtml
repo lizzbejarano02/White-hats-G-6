@@ -39,23 +39,18 @@
             <td>@mascota.Veterinario.Nombres</td>
             
             
-        <td>
+            <td>
                 <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
                     Detalles Mascota
                 </a>
             </td>
             <td>
-                <a class="btn btn-primary table-btn" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
-                    Editar Mascota
-                </a>
-            </td>
-            <td>
                 <a class="btn btn-primary table-btn" asp-page="./Asignar" asp-route-mascotaId="@mascota.Id">
-                    Asignación 
+                    Editar 
                 </a>
             </td>
         </tr> 
      }
   
 </table>
-<a class = "btn btn-primary table-btn" asp-page="./EditarMascotas" class="btn-default">Adicionar Mascota</a>
+<a class = "btn btn-primary table-btn" asp-page="./Asignar" class="btn-default">Adicionar Mascota</a>
