@@ -8,8 +8,11 @@
 <form method="get">
     <div class="form-group">
         <p>
-            Nombre: <input type="text" name="Filtrobusqueda" asp-for="FiltroBusqueda"/>
-            <input type="submit" value="Filtrar" />
+            <input type="text"  size= "50" placeholder="Introduzca el nombre..." name="Filtrobusqueda" asp-for="FiltroBusqueda"/>
+            <!--<input type="submit" value="Filtrar" />-->
+            <button type="submit" class = "btn btn-primary table-btn"><i class="fas fa-search fa-sm"></i></button>
+            <a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" 
+            class="btn-default"><i class="fas fa-fw fa-user-plus" title="Agregar"></i></a>
         </p>
 </form>
 
@@ -41,12 +44,14 @@
             
         
       <td> <a class="btn btn-primary table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
-                    Detalle Dueño
+      <i class="fas fa-fw fa-user-check" title="Detalles"></i>
+                    
                 </a>
             </td>  
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
-                    Editar Dueno
+                <i class="fas fa-fw fa-user-edit" title="Editar"></i>
+                
                 </a>
             </td>
         </tr> 
@@ -54,6 +59,6 @@
    
 
 </table>
-<a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
+
 
   

@@ -7,8 +7,10 @@
 <form method="get">
     <div class="form-group">
         <p>
-            Nombre: <input type="text" name="Filtrobusqueda" asp-for="FiltroBusqueda"/>
-            <input type="submit" value="Filtrar" />
+            <input type="text"  size= "50" placeholder="Introduzca el nombre..." name="Filtrobusqueda" asp-for="FiltroBusqueda"/>
+            <!--<input type="submit" value="Filtrar" />-->
+            <button type="submit" class = "btn btn-primary table-btn"><i class="fas fa-search fa-sm"></i></button>
+            <a class = "btn btn-primary table-btn" asp-page="./EditarVeterinario" class="btn-default"><i class="fas fa-fw fa-user-plus" title="Agregar"></i></a>
         </p>
 </form>
 
@@ -37,11 +39,11 @@
             <td>@veterinario.Telefono</td>
             <td>@veterinario.TarjetaProfesional</td>
              <td> <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">
-                    Detalle Veterinario
+             <i class="fas fa-fw fa-user-check" title="Detalles"></i>
                 </a>
             </td>  
              <td> <a class="btn btn-primary table-btn" asp-page="./EditarVeterinario" asp-route-veterinarioId="@veterinario.Id">
-                    Editar Veterinario
+             <i class="fas fa-fw fa-user-edit" title="Editar"></i>
                 </a>
             </td>  
         </tr> 
@@ -50,4 +52,3 @@
    
 
 </table>
-<a class = "btn btn-primary table-btn" asp-page="./EditarVeterinario" class="btn-default">Adicionar Veterinario</a>
