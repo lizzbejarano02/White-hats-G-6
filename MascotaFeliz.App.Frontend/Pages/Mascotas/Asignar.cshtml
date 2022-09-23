@@ -2,6 +2,9 @@
 @model MascotaFeliz.App.Frontend.Pages.AsignarModel
 @{
     int mascotaId = Model.mascota.Id;
+    DateTime fechaCreacion = DateTime.Now;
+    
+    
 }
 
 <h2>Agregar o Editar Mascota </h2>
@@ -9,6 +12,9 @@
 <form method="post">
     <div class="form-group">
         <input type="hidden" asp-for ="mascota.Id"/>
+        <label name ="Fecha"></label>
+        <input name = "fechaCreacion" type="date" asp-for = "@fechaCreacion" disabled/>
+        <br>
         <label asp-for="mascota.Nombre"></label>
         <input asp-for="mascota.Nombre" class="form-control">
         <label asp-for="mascota.Color"></label>

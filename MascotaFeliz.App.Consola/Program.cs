@@ -28,7 +28,7 @@ namespace MascotaFeliz.App.Consola
             //BuscarVeterinario(6);
             //BorrarVeterinario(12);
             //AddMascota();
-            //BorrarMascota(4);
+            //BorrarMascota(6);
             //ListarMascotas();
             //BuscarMascota(2);
             //BuscarMascotaPorFiltro("Firulay");

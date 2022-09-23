@@ -29,6 +29,8 @@ namespace MascotaFeliz.App.Persistencia
             var historiaAdicionado = _appContext.Historias.Add(historia);
             _appContext.SaveChanges();
             return historiaAdicionado.Entity;
+            
+
         }
 
         public void DeleteHistoria(int idHistoria)

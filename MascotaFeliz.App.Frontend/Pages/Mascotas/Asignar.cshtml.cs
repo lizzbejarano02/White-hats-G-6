@@ -14,11 +14,13 @@ namespace MascotaFeliz.App.Frontend.Pages
         private readonly IRepositorioMascota _repoMascota;
         private static IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
         private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario (new Persistencia.AppContext());
+        private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria (new Persistencia.AppContext());
         
         [BindProperty]
         public Mascota mascota {get;set;}
         public Dueno dueno {get;set;}
         public Veterinario veterinario {get;set;}
+        public Historia historia {get; set;}
 
         public IEnumerable<Dueno> listaDuenos{get;set;}
         public IEnumerable<Veterinario> listaVeterinarios{get;set;}
@@ -31,6 +33,7 @@ namespace MascotaFeliz.App.Frontend.Pages
         {
             listaDuenos = _repoDueno.GetAllDuenos();
             listaVeterinarios = _repoVeterinario.GetAllVeterinarios();
+            
 
             if(mascotaId.HasValue)
             {
@@ -40,6 +43,8 @@ namespace MascotaFeliz.App.Frontend.Pages
             else
             {
                 mascota = new Mascota();
+             
+               
 
             }
             if(mascota == null)
@@ -53,7 +58,7 @@ namespace MascotaFeliz.App.Frontend.Pages
 
         }
 
-        public IActionResult OnPost(Mascota mascota,int duenoId, int veterinarioId)
+        public IActionResult OnPost(Mascota mascota,int duenoId, int veterinarioId, int historiaId, DateTime fechaCreacion)
         {
             if (ModelState.IsValid)
             {
@@ -73,6 +78,14 @@ namespace MascotaFeliz.App.Frontend.Pages
                     mascota = _repoMascota.AddMascota(mascota);
                     _repoMascota.AsignarDueno(mascota.Id,duenoId);
                     _repoMascota.AsignarVeterinario(mascota.Id,veterinarioId);
+                    historia = new Historia();
+                    {
+                        
+                        historia.FechaInicial = new DateTime(DateTime.Now.Ticks);
+                    }
+               
+                    historia =_repoHistoria.AddHistoria(historia);
+                    _repoMascota.AsignarHistoria(mascota.Id,historia.Id);
                 }
 
                 
