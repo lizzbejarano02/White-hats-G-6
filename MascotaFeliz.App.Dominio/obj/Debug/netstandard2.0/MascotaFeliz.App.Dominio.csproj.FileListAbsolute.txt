@@ -52,3 +52,12 @@ C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\repo\White-hats-G-6\MascotaFeliz.App.D
 C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\repo\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\repo\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
 C:\Users\LVU8DK661\Desktop\TAREAS UCALDAS\repo\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+C:\Users\LENOVO\Downloads\Proyecto 1\White-hats-G-6\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb

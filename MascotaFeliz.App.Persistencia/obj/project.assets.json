@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LVU8DK661\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Downloads\\Proyecto 1\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
       "projectName": "MascotaFeliz.App.Persistencia",
-      "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\LVU8DK661\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\Downloads\\Proyecto 1\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Downloads\\Proyecto 1\\White-hats-G-6\\MascotaFeliz.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LVU8DK661\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\LVU8DK661\\Desktop\\TAREAS UCALDAS\\repo\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\Users\\LENOVO\\Downloads\\Proyecto 1\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Downloads\\Proyecto 1\\White-hats-G-6\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             }
           }
         }
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
       }
     }
   }
