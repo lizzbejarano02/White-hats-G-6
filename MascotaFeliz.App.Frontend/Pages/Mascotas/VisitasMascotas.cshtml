@@ -1,0 +1,37 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.VisitasMascotasModel
+@{
+     <link rel="stylesheet" href="~/css/Style.css" />
+    int visitaPyPId = Model.visitaPyP.Id;
+}
+<body class="imagenVisitaPyP">
+<div class="form-registerPyP">
+<h2>Agregar VisitaPyP </h2>
+
+<form method="post">
+    <div class="form-group">
+        <input type="hidden" asp-for ="visitaPyP.Id"/>
+        <label asp-for="visitaPyP.FechaVisita"></label>
+        <input  asp-for="visitaPyP.FechaVisita" class="form-control">
+        <label asp-for="visitaPyP.Temperatura"></label>
+        <input asp-for="visitaPyP.Temperatura" class="form-control">
+        <label asp-for="visitaPyP.Peso"></label>
+        <input asp-for="visitaPyP.Peso" class="form-control">
+        <label asp-for="visitaPyP.FrecuenciaRespiratoria"></label>
+        <input asp-for="visitaPyP.FrecuenciaRespiratoria" class="form-control">
+        <label asp-for="visitaPyP.FrecuenciaCardiaca"></label>
+        <input asp-for="visitaPyP.FrecuenciaCardiaca" class="form-control">
+        <label asp-for="visitaPyP.EstadoAnimo"></label>
+        <input asp-for="visitaPyP.EstadoAnimo" class="form-control">
+        <label asp-for="visitaPyP.IdVeterinario"></label>
+        <input asp-for="visitaPyP.IdVeterinario" class="form-control">
+        <label asp-for="visitaPyP.Recomendaciones"></label>
+        <input asp-for="visitaPyP.Recomendaciones" class="form-control">
+        
+    
+        <button type="submit" class="btn btn-primary table-btn"><i class="fas fa-fw fa-save" title="Guardar"></i></button>
+        <a class="btn btn-primary table-btn" asp-page="./ListaMascotas"><i class="fas fa-fw fa-undo-alt" title="Regresar"></i></a>
+</div>
+</form>
+</div>
+</body>

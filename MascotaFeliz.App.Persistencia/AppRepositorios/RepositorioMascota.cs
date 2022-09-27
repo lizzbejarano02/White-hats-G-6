@@ -52,8 +52,9 @@ namespace MascotaFeliz.App.Persistencia
             {
                 if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
                 {
-                    mascotas = mascotas.Where(s => s.Nombre.Contains(filtro));
-                   
+                    
+                    mascotas = mascotas.Where(s => s.Nombre.Contains(filtro)| s.Veterinario.Nombres.Contains(filtro)|
+                    s.Dueno.Nombres.Contains(filtro));
                 }
             }
             return mascotas;

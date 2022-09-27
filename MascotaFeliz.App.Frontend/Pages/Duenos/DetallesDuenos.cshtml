@@ -1,7 +1,11 @@
 ﻿@page
 @model MascotaFeliz.App.Frontend.Pages.DetallesDuenosModel
 @{
+      <link rel="stylesheet" href="~/css/detalle.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
 }
+<body class="imagenDetalle">
 <h1> Detalles del Dueño</h1>
 
 <div>
@@ -22,4 +26,6 @@
 <div>
  Correo: @Model.dueno.Correo
 </div>
-<a asp-page="./Listaduenos" class="btn-default">Lista de Dueños</a>
+
+<a class = "btn btn-primary table-btn" asp-page="./Listaduenos" class="btn-default"><i class="fas fa-fw fa-undo-alt" title="Regresar"></i></a>
+</body>

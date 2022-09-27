@@ -1,8 +1,11 @@
 ﻿@page
 @model MascotaFeliz.App.Frontend.Pages.EditarDuenosModel
-@{
+@{  
+    <link rel="stylesheet" href="~/css/Style.css" />
     int duenoId = Model.dueno.Id;
 }
+<body class="imagenDueno">
+<div class="form-registerD">
 <h2>Agregar o editar dueños </h2>
 
 <form method="post">
@@ -19,9 +22,11 @@
         <label asp-for="dueno.Correo"></label>
         <input asp-for="dueno.Correo" class="form-control">
         
-        <button type="submit" class="btn btn-primary">Grabar</button>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-fw fa-save" title="Guardar"></i></button>
+        <a class = "btn btn-primary table-btn" asp-page="./Listaduenos" class="btn-default"><i class="fas fa-fw fa-undo-alt" title="Regresar"></i></a>
     </div>
 </form>
-
+</div>
+</body>
 
 

@@ -6,67 +6,89 @@
   
 
     .imagenMascota {
-        background-image: url('./Imagenes/fondo.jpg'); 
+        background-image: url('./Img/fondo_regisM.jpg'); 
         background-size: cover;
-        height: 700px;
+        height: 50%;
         position: relative;
       }
 
       .imagenDueno {
-        background: url('./Imagenes/fondo_dueño.jpg'); 
+        background: url('./Img/fondo_regdueno.jpeg'); 
         background-size: cover;
-        height: 700px;
+        height: 50%;
         position: relative;
       }
       .imagenVeterinario {
-        background: url('./Imagenes/fondo_veterinario.jpg'); 
+        background: url('./Img/fondo_regveterinario.jpeg'); 
         background-size: cover;
-        height: 700px;
+        height: 50%;
         position: relative;
       }
-
+      .imagenVisitaPyP{
+        background: url('./Img/imagenPyP.jpeg'); 
+        background-size: cover;
+        height: 50%;
+        position: relative;
+      }
+h2{
+  color:#2CCAAE;
+}
       .form-registerM {
         width: 400px;
-        height: 500px;
+        height: 560px;
         background: rgb(243, 241, 241);
         padding: 30px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 30px;
         border-radius: 4px;
         font-family: 'calibri';
         color: black;
-        box-shadow: 7px 13px 37px white;
-        left: -500px;
+        box-shadow: 7px 13px 37px solid white;
+        left: -390px;
         position: relative;
       }
   
   .form-registerD {
     width: 400px;
     height: 500px;
-    background: rgb(243, 241, 241);
+    background: #e6e6e6cb;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 30px;
     border-radius: 4px;
     font-family: 'calibri';
     color: black;
     box-shadow: 7px 13px 37px white solid;
-    left: -500px;
+    left: 420px;
     position: relative;
   }
 
   .form-registerV {
     width: 400px;
-    height: 500px;
-    background: rgb(243, 241, 241);
+    height: 535px;
+    background: #e6e6e6cb;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 30px;
     border-radius: 4px;
     font-family: 'calibri';
     color: black;
     box-shadow: 7px 13px 37px white solid;
-    right: -450px;
+    left: -390px;
+    position: relative;
+  }
+  .form-registerPyP {
+    width: 400px;
+    height: 690px;
+    background: #e6e6e6cb;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px solid white;
+    left: -390px;
     position: relative;
   }
   
@@ -104,32 +126,63 @@
     text-decoration: underline;
   }
   
-  .form-registerM .botons {
-    width: 100%;
-    background: black;
-    border: none;
+  .form-registerM .btn-primary {
+    width: 25%;
+    background: 0;
+    border: 2px solid black;
     padding: 12px;
-    color: white;
+    color: black;
     margin: 16px 0;
     font-size: 16px;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 7px;
   }
 
-  .form-registerD .botons {
-    width: 100%;
-    background: black;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 20px 0;
-    font-size: 16px;
-  }
+   .form-registerD .btn-primary {
+  width: 25%;
+  background: 0;
+  border: 2px solid black;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .3s;
+  border-radius: 7px;
+}
+.form-registerV .btn-primary {
+  width: 25%;
+  background: 0;
+  border: 2px solid black;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .3s;
+  border-radius: 7px;
+}
+.form-registerPyP .btn-primary {
+  width: 25%;
+  background: 0;
+  border: 2px solid black;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .3s;
+  border-radius: 7px;
+}
 
-  .form-registerV .botons {
-    width: 100%;
-    background: black;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 20px 0;
-    font-size: 16px;
-  }
+.btn-primary:hover {
+    background: #2CCAAE;
+    border: #2CCAAE;
+    color: #fff;
+    
+}
+
+
+
+

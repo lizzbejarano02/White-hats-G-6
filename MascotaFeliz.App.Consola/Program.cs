@@ -41,7 +41,7 @@ namespace MascotaFeliz.App.Consola
             //ActualizarMascota(3);
             //ActualizarVeterinario(8);
             //ActualizarDueno(3);
-            //AddVisitaPyP();
+            AddVisitaPyP();
         }
 
         private static void AddDueno()
@@ -236,13 +236,13 @@ namespace MascotaFeliz.App.Consola
         {
             var visitaPyP = new VisitaPyP
             {
-                FechaVisita = new DateTime(2022,09,13),
+                FechaVisita = new DateTime(2022,09,24),
                 Temperatura = 37.2F,
                 Peso = 65.3F,
                 FrecuenciaRespiratoria = 43.2F,
                 FrecuenciaCardiaca = 10.5F,
-                EstadoAnimo = "Alegre",
-                Recomendaciones = "Reposo",
+                EstadoAnimo = "triste",
+                Recomendaciones = "Salir",
 
             };
             _repoVisitaPyP.AddVisitaPyP(visitaPyP);

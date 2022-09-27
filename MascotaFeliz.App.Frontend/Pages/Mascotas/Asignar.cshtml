@@ -1,18 +1,18 @@
 ﻿@page
 @model MascotaFeliz.App.Frontend.Pages.AsignarModel
 @{
+     <link rel="stylesheet" href="~/css/Style.css" />
     int mascotaId = Model.mascota.Id;
-    DateTime fechaCreacion = DateTime.Now;
-    
-    
+     DateTime fechaCreacion = DateTime.Now;
 }
-
+<body class="imagenMascota">
+<div class="form-registerM">
 <h2>Agregar o Editar Mascota </h2>
 
 <form method="post">
     <div class="form-group">
         <input type="hidden" asp-for ="mascota.Id"/>
-        <label name ="Fecha"></label>
+         <label name ="Fecha"></label>
         <input name = "fechaCreacion" type="date" asp-for = "@fechaCreacion" disabled/>
         <br>
         <label asp-for="mascota.Nombre"></label>
@@ -28,7 +28,7 @@
             name="duenoId" aria-label="Default select example">
             <option value ="0">Seleccione el Dueño</option>
             @foreach (var dueno in Model.listaDuenos)
-            {
+            { 
                 <option value = "@dueno.Id">@dueno.Nombres @dueno.Apellidos </option>
             }
         </select>
@@ -42,6 +42,9 @@
             }
         </select>
         
-        <button type="submit" class="btn btn-primary">Grabar</button>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-fw fa-save" title="Guardar"></i></button>
+        <a class = "btn btn-primary table-btn" asp-page="./ListaMascotas" class="btn-default"><i class="fas fa-fw fa-undo-alt" title="Regresar"></i></a>
     </div>
 </form>
+</div>
+</body>

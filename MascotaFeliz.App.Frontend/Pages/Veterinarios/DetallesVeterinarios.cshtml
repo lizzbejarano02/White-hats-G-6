@@ -1,7 +1,11 @@
 ﻿@page
 @model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
 @{
+          <link rel="stylesheet" href="~/css/detalle.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
 }
+<body class="imagenDetalle">
 <h1> Detalles del Veterinario</h1>
 
 <div>
@@ -22,4 +26,6 @@
 <div>
  Tarjeta Profesional: @Model.veterinario.TarjetaProfesional
 </div>
-<a asp-page="./ListaVeterinarios" class="btn-default">Lista de Veterinarios</a>
+
+<a class = "btn btn-primary table-btn" asp-page="./ListaVeterinarios" class="btn-default"><i class="fas fa-fw fa-undo-alt" title="Regresar"></i></a>
+</body>

@@ -67,6 +67,7 @@ namespace MascotaFeliz.App.Persistencia
                 _appContext.SaveChanges();
             }
             return historiaEncontrado;
-        }     
+        } 
+   
     }
 }
